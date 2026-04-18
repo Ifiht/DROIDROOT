@@ -1,0 +1,3 @@
+[submodule "android-ota-payload-extractor"]
+	path = android-ota-payload-extractor
+	url = https://github.com/tobyxdd/android-ota-payload-extractor.git
