@@ -9,6 +9,10 @@
   - connect with USB debugging and confirm with `adb devices`
   - `adb reboot bootloader`
   - verify with `fastboot devices`
-  - `fastboot flash init_boot`
+    - OPTIONAL STEPS:
+    - `fastboot flashing unlock`
+    - `fastboot getvar current-slot`
+    - `fastboot getvar all`
+  - `fastboot flash boot /PATH/TO/PATCH_FILE.img`
 
 NOTE: if the version currently running and the version hosted by google are not IDENTICAL, sideload of the full OTA image will be required first.
